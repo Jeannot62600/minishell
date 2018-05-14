@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o  -o shell_lapostolle_saby 
+/usr/bin/cc -g   CMakeFiles/shell_lapostolle_saby.dir/main.c.o  -o shell_lapostolle_saby 

@@ -48,10 +48,10 @@ RM = /home/melcore/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/melcore/CLionProjects/shell_lapostolle_saby
+CMAKE_SOURCE_DIR = /home/melcore/Documents/Licence/C/shell_lapostolle_saby
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug
+CMAKE_BINARY_DIR = /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug/CMakeFiles /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug/CMakeFiles /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ shell_lapostolle_saby/fast:
 	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/build
 .PHONY : shell_lapostolle_saby/fast
 
-main.o: main.cpp.o
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:

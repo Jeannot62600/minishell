@@ -43,10 +43,10 @@ RM = /home/melcore/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/melcore/CLionProjects/shell_lapostolle_saby
+CMAKE_SOURCE_DIR = /home/melcore/Documents/Licence/C/shell_lapostolle_saby
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug
+CMAKE_BINARY_DIR = /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/shell_lapostolle_saby.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/shell_lapostolle_saby.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/shell_lapostolle_saby.dir/flags.make
 
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o: CMakeFiles/shell_lapostolle_saby.dir/flags.make
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o -c /home/melcore/CLionProjects/shell_lapostolle_saby/main.cpp
+CMakeFiles/shell_lapostolle_saby.dir/main.c.o: CMakeFiles/shell_lapostolle_saby.dir/flags.make
+CMakeFiles/shell_lapostolle_saby.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/shell_lapostolle_saby.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shell_lapostolle_saby.dir/main.c.o   -c /home/melcore/Documents/Licence/C/shell_lapostolle_saby/main.c
 
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell_lapostolle_saby.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/melcore/CLionProjects/shell_lapostolle_saby/main.cpp > CMakeFiles/shell_lapostolle_saby.dir/main.cpp.i
+CMakeFiles/shell_lapostolle_saby.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shell_lapostolle_saby.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/melcore/Documents/Licence/C/shell_lapostolle_saby/main.c > CMakeFiles/shell_lapostolle_saby.dir/main.c.i
 
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell_lapostolle_saby.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/melcore/CLionProjects/shell_lapostolle_saby/main.cpp -o CMakeFiles/shell_lapostolle_saby.dir/main.cpp.s
+CMakeFiles/shell_lapostolle_saby.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shell_lapostolle_saby.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/melcore/Documents/Licence/C/shell_lapostolle_saby/main.c -o CMakeFiles/shell_lapostolle_saby.dir/main.c.s
 
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.requires:
+CMakeFiles/shell_lapostolle_saby.dir/main.c.o.requires:
 
-.PHONY : CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/shell_lapostolle_saby.dir/main.c.o.requires
 
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.provides: CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.provides
+CMakeFiles/shell_lapostolle_saby.dir/main.c.o.provides: CMakeFiles/shell_lapostolle_saby.dir/main.c.o.requires
+	$(MAKE) -f CMakeFiles/shell_lapostolle_saby.dir/build.make CMakeFiles/shell_lapostolle_saby.dir/main.c.o.provides.build
+.PHONY : CMakeFiles/shell_lapostolle_saby.dir/main.c.o.provides
 
-CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.provides.build: CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o
+CMakeFiles/shell_lapostolle_saby.dir/main.c.o.provides.build: CMakeFiles/shell_lapostolle_saby.dir/main.c.o
 
 
 # Object files for target shell_lapostolle_saby
 shell_lapostolle_saby_OBJECTS = \
-"CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o"
+"CMakeFiles/shell_lapostolle_saby.dir/main.c.o"
 
 # External object files for target shell_lapostolle_saby
 shell_lapostolle_saby_EXTERNAL_OBJECTS =
 
-shell_lapostolle_saby: CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o
+shell_lapostolle_saby: CMakeFiles/shell_lapostolle_saby.dir/main.c.o
 shell_lapostolle_saby: CMakeFiles/shell_lapostolle_saby.dir/build.make
 shell_lapostolle_saby: CMakeFiles/shell_lapostolle_saby.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable shell_lapostolle_saby"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable shell_lapostolle_saby"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell_lapostolle_saby.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/shell_lapostolle_saby.dir/build: shell_lapostolle_saby
 
 .PHONY : CMakeFiles/shell_lapostolle_saby.dir/build
 
-CMakeFiles/shell_lapostolle_saby.dir/requires: CMakeFiles/shell_lapostolle_saby.dir/main.cpp.o.requires
+CMakeFiles/shell_lapostolle_saby.dir/requires: CMakeFiles/shell_lapostolle_saby.dir/main.c.o.requires
 
 .PHONY : CMakeFiles/shell_lapostolle_saby.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/shell_lapostolle_saby.dir/clean:
 .PHONY : CMakeFiles/shell_lapostolle_saby.dir/clean
 
 CMakeFiles/shell_lapostolle_saby.dir/depend:
-	cd /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melcore/CLionProjects/shell_lapostolle_saby /home/melcore/CLionProjects/shell_lapostolle_saby /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug /home/melcore/CLionProjects/shell_lapostolle_saby/cmake-build-debug/CMakeFiles/shell_lapostolle_saby.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melcore/Documents/Licence/C/shell_lapostolle_saby /home/melcore/Documents/Licence/C/shell_lapostolle_saby /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug /home/melcore/Documents/Licence/C/shell_lapostolle_saby/cmake-build-debug/CMakeFiles/shell_lapostolle_saby.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/shell_lapostolle_saby.dir/depend
 

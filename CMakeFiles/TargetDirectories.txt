@@ -1,0 +1,3 @@
+/home/melcore/Documents/Licence/C/shell_lapostolle_saby/CMakeFiles/edit_cache.dir
+/home/melcore/Documents/Licence/C/shell_lapostolle_saby/CMakeFiles/rebuild_cache.dir
+/home/melcore/Documents/Licence/C/shell_lapostolle_saby/CMakeFiles/minishell.dir

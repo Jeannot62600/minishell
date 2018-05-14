@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.9)
-project(shell_lapostolle_saby)
+cmake_minimum_required(VERSION 3.5)
+project(shell_lapostolle_saby C)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 
-add_executable(shell_lapostolle_saby main.cpp)
+add_executable(minishell src/lecture.c src/matrix.c src/structure.c main.c)

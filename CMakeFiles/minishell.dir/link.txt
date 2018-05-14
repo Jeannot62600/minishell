@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/minishell.dir/src/lecture.c.o CMakeFiles/minishell.dir/src/matrix.c.o CMakeFiles/minishell.dir/src/structure.c.o CMakeFiles/minishell.dir/main.c.o  -o minishell 
